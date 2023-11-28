@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# %load newscrawler/newscrawler/items.py
 
 # Define here the models for your scraped items
 #
@@ -6,6 +6,7 @@
 # https://docs.scrapy.org/en/latest/topics/items.html
 
 import scrapy
+
 
 class ArticleItem(scrapy.Item):
     title = scrapy.Field()
